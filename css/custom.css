@@ -70,12 +70,13 @@
 #wrapper {
     position:relative;
     top:-100px;
+    box-shadow:none;
 }
 
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background:url(images/background-cover.jpg) top center no-repeat fixed #000;
+    background:url(images/background-cover.jpg) top center no-repeat fixed #FFF;
     background-size:cover;
     border-top:100px solid #fff;
 }
