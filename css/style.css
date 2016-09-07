@@ -144,8 +144,6 @@ body {
 }
 
 a {
-	text-decoration: none !important;
-	color: #1ABC9C;
 }
 
 a:hover { color: #222; }
@@ -1127,7 +1125,6 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
 	font-weight: bold;
 	font-size: 13px;
 	letter-spacing: 1px;
@@ -1156,7 +1153,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 

@@ -4,12 +4,19 @@
 .notoppadding {
     padding-top:0px;
 }
+.center-align {
+    margin:0 auto;
+}
 
 .padding-top-30 {
     padding-top:30px;
 }
 .paddding-bottom-30 {
     padding-bottom:30px;
+}
+#logo > a.retina-logo > img, #logo > a.standard-logo > img {
+    width:85%;
+    margin:0 auto;
 }
 
 .text-white {
@@ -25,6 +32,9 @@
 }
 .text-light-green {
     color:#51A697;
+}
+.text-lighter-green {
+    color:#B6BC25;
 }
 .text-gray {
     color:#555555;
@@ -60,6 +70,13 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+#primary-menu ul li > a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:0;
 }
 
 h1 {
@@ -113,5 +130,25 @@ p {
 .font-14 {
     font-size:14px;
 }
+
+#primary-menu > ul:nth-child(1) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(1):hover > a {
+    color:#FF7A00;
+}
+#primary-menu > ul:nth-child(1) > li:nth-child(2) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(2):hover > a {
+    color:#B6BC25;
+}
+#primary-menu > ul:nth-child(1) > li:nth-child(3) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(3):hover > a {
+    color:#019F8E;
+}
+
+#primary-menu > ul:nth-child(2) > li > a {
+    color:#555;
+}
+#primary-menu > ul > li:hover > a {
+    text-decoration:underline;
+}
+
+
+
 
 
