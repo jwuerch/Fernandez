@@ -67,9 +67,17 @@
     font-size:36px;
 }
 
+#wrapper {
+    position:relative;
+    top:-100px;
+}
+
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background:url(images/background-cover.jpg) top center no-repeat fixed #000;
+    background-size:cover;
+    border-top:100px solid #fff;
 }
 
 #primary-menu ul li > a {
