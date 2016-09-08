@@ -74,7 +74,7 @@
 }
 
 #wrapper {
-    position:relative;
+    margin-top:-100px;
     box-shadow:none;
     background:none;
 }
