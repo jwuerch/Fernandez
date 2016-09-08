@@ -11,8 +11,21 @@
 .padding-top-30 {
     padding-top:30px;
 }
+
 .paddding-bottom-30 {
     padding-bottom:30px;
+}
+.padding-left-20 {
+    padding-left:15px;
+}
+.padding-right-20 {
+    padding-right:15px;
+}
+.margin-bottom-15 {
+    margin-bottom:15px;
+}
+.margin-bottom-30 {
+    marign-bottom:30;
 }
 #logo > a.retina-logo > img, #logo > a.standard-logo > img {
     width:85%;
@@ -21,9 +34,6 @@
 
 .text-white {
     color:#FFF;
-}
-.margin-bottom-15 {
-    margin-bottom:15px;
 }
 
 .text-black {
@@ -93,15 +103,21 @@ body {
     font-weight:600;
     letter-spacing:0;
 }
-
+.no-text-shadow {
+    text-shadow:none;
+}
 h1 {
     font-size:72px;
     line-height:70px;
 }
 
+h2.font-72 {
+    font-size:72px;
+}
 h2 {
     font-size:64px;
 }
+
 h2.font-56 {
     font-size:56px;
 }
@@ -158,6 +174,12 @@ p {
     text-shadow: 2px 2px 5px #00154E;
 }
 
+.text-shadow-3 {
+    text-shadow: 2px 2px 4px #00154E;
+}
+
+
+
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(1):hover > a {
     color:#FF7A00;
 }
@@ -175,7 +197,25 @@ p {
     text-decoration:underline;
 }
 
-.slider-caption.slider-caption-center {
+#max-width-slider {
+    max-width:100%;
+}
+
+.slide-rectangle {
+    background: rgba(255,255,255,0.75);
+    border-radius: 8px;
+    max-width:798px;
+    height:161px;
+    margin:0 auto;
+    margin-bottom:30px;
+
+}
+.slide-rectangle:before {
+    content:"<div>&#9733;</div>;&#9733;";
+}
+.slide-rectangle:after {
+    content: "hi";
+    text-shadow:none;
 }
 
 
