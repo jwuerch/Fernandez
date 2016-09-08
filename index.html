@@ -144,7 +144,7 @@
 	<!-- Site Content
     ============================================= -->
 	<div id="content" style="margin-bottom: 0px;">
-		<div class="content-wrap notoppadding">
+		<div class="content-wrap notoppadding nobottompadding">
 
 			<!-- Phone Slug
             ============================================= -->
@@ -580,43 +580,39 @@
 				</div>
 			</section>
 
-
 			<!-- Top Footer
    			 ============================================= -->
-			<section id="top-footer" class="page-section">
-				<div class="col_full common-height">
+			<section id="top-footer">
+				<div class="col_full bottommargin-lg common-height">
+
 					<div class="col-md-4 col-padding" style="background-image:url('images/map-1.svg');background-size:inherit;">
-
+						<div></div>
 					</div>
-
-					<div class="col-md-4 col-padding padding-top-30 padding-bottom-30 center" style="background:#FFF;">
-						<img src="images/fernandes-footer-logo.svg" class="margin-bottom-10">
-						<p class="nobottommargin text-light-green font-21 t600 lh-20">Tom Fernandes, DDS</p>
-						<p class="text-light-green font-21 t600 margin-bottom-20">Tamara Fernandes, DDS</p>
-						<p class="text-light-green font-21 t600 nobottommargin">SOUTH LAKE TAHOE</p>
-						<p class="text-gray font-18 nobottommargin lh-15">2074 Lake Tahoe Blvd, Suite&nbsp;4</p>
-						<p class="text-gray font-18 margin-bottom-20">South Lake Tahoe, CA 96150</p>
-						<p class="text-light-green font-21 t600 nobottommargin">STATELINE</p>
-						<p class="text-gray font-18 nobottommargin lh-15">276 Kingsbury Grade, Suite 1000</p>
-						<p class="text-gray font-18 nobottommargin">Stateline, NV 89449</p>
-
-
-
-
+					<div class="col-md-4 col-padding" style="height: 356px; background-color: #FFF">
+						<div class="center">
+							<img src="images/fernandes-footer-logo.svg" class="margin-bottom-10">
+							<p class="nobottommargin text-light-green font-21 t600 lh-20">Tom Fernandes, DDS</p>
+							<p class="text-light-green font-21 t600 margin-bottom-20">Tamara Fernandes, DDS</p>
+							<p class="text-light-green font-21 t600 nobottommargin">SOUTH LAKE TAHOE</p>
+							<p class="text-gray font-18 nobottommargin lh-15">2074 Lake Tahoe Blvd, Suite&nbsp;4</p>
+							<p class="text-gray font-18 margin-bottom-20">South Lake Tahoe, CA 96150</p>
+							<p class="text-light-green font-21 t600 nobottommargin">STATELINE</p>
+							<p class="text-gray font-18 nobottommargin lh-15">276 Kingsbury Grade, Suite 1000</p>
+							<p class="text-gray font-18 nobottommargin">Stateline, NV 89449</p>
+						</div>
 					</div>
-
 					<div class="col-md-4 col-padding" style="background-image:url('images/map-2.svg');background-size:inherit;">
-
+						<div></div>
 					</div>
+
 					<div class="clear"></div>
 
 				</div>
 			</section><!-- End Top Footer
     ============================================= -->
-
 			<!-- Phone Slug
             ============================================= -->
-			<section id="phone-slug-3" class="page-section clearfix phone-slug padding-top-30 margin-top-30">
+			<section id="phone-slug-3" class="page-section clearfix phone-slug padding-top-30">
 				<div class="center">
 					<div class="row">
 						<div class="col-sm-6 tright">
@@ -643,6 +639,7 @@
 
 
 
+
 		</div>
 	</div>
 
@@ -650,88 +647,9 @@
     ============================================= -->
 	<footer id="footer">
 
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-
-				</div>
-			</div>
-		</div>
-
-		<!-- Copyrights
-        ============================================= -->
-		<div id="copyrights">
-			<div class="container">
-				<div class="col-xs-12 center">
-					<a href="https://www.facebook.com/kobernikfamilydental/?fref=nf" target="_blank"><img src="assets/images/facebook.jpg" alt="Find Us on Facebook" style="border: 2px solid rgba(0, 0, 0, .1);"></a>
-					<br><br>
-					<p class="nobottommargin text-center">Copyright © <script>document.write(+new Date().getFullYear());</script>20162016 All Rights Reserved by <a style="color:inherit;" href="http://www.tysonsteele.com" target="_blank"><u>Tyson Steele Associates</u></a>.</p>
-				</div>
-			</div>
-		</div>
 	</footer>
 </div>
 
-<!-- Modal Scheduling Form -->
-<div class="modal" id="schedule-form" tabindex="-1" role="dialog" aria-labelledby="schedule-form-modal-label" aria-hidden="true">
-	<div class="modal-dialog">
-		<form method="post" action="schedule.php">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					<h4 class="modal-title" id="schedule-form-modal-label">Request an Appointment</h4>
-				</div>
-				<div class="modal-body">
-					<div class="clearfix">
-						<p class="teaser">YES! Please contact me to schedule my appointment or answer any questions I might still&nbsp;have:</p>
-					</div>
-					<table>
-						<tbody><tr id="person-field">
-							<th class="label">
-								<label for="person">My name:</label>
-							</th>
-							<td class="field">
-								<input type="text" required="" name="person" class="input_full">
-							</td>
-						</tr>
-						<tr id="respond-field">
-							<th class="label">
-								<label for="respond">Email:</label>
-							</th>
-							<td class="field">
-								<input type="email" required="" name="respond" class="input_full">
-							</td>
-						</tr>
-						<tr id="phone-field">
-							<th class="label">
-								<label for="phone">Phone #:</label>
-							</th>
-							<td class="field">
-								<input type="text" required="" name="phone" class="input_full">
-							</td>
-						</tr>
-						<tr id="email-field" style="display: none;">
-							<th class="label">
-								<label for="email">Email:</label>
-							</th>
-							<td class="field">
-								<input type="email" name="email">
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2">
-								<p class="schedule-online">
-									<button type="submit" class="button nomargin btn-block center">Request an&nbsp;Appointment</button>
-								</p>
-							</td>
-						</tr>
-						</tbody></table>
-
-				</div>
-			</div>
-		</form>
-	</div>
-</div>
 
 
 <!-- JS Templates
