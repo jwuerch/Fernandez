@@ -29,6 +29,12 @@
 .padding-left-15 {
     padding-left:15px;
 }
+.padding-left-30 {
+    padding-left:30px;
+}
+.padding-right-30 {
+    padding-right:30px;
+}
 .margin-bottom-50 {
     margin-bottom:50px;
 }
@@ -164,7 +170,7 @@
     font-size:88px;
 }
 .lh-20 {
-    line-height:20px;
+    line-height:20px !important;
 }
 .text-dollar {
     color:#FFF;
@@ -187,6 +193,12 @@ body {
     background:url(images/background-cover.jpg) top center no-repeat fixed #FFF;
     background-size:cover;
     border-top:100px solid #fff;
+}
+.background-gray {
+    background:#F0EDE9;
+}
+.background-gray:hover {
+    background:#E1DEDA;
 }
 
 #primary-menu ul li > a {
@@ -366,8 +378,10 @@ p {
 #services {
     padding-bottom:80px;
 }
+
 #patient-forms {
     background:#FFF;
+    border:1px solid #979797;
 }
 #services, #patient-reviews {
     background:#F0EDE9;
