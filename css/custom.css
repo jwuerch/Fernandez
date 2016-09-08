@@ -162,6 +162,10 @@ h2 {
 h2.font-56 {
     font-size:56px;
 }
+
+h2.font-48 {
+    font-size:48px;
+}
 h3 {
     font-size:48px;
 }
@@ -264,6 +268,9 @@ p {
 
 .phone-slug {
     background:#B6BC25;
+}
+#meet-the-team {
+    background:#F0EDE9;
 }
 
 
