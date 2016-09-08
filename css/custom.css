@@ -315,6 +315,9 @@ p {
 #content {
     background: none;
 }
+#services, #patient-reviews {
+    background:#F0EDE9;
+}
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
