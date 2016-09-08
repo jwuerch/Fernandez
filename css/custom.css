@@ -47,6 +47,12 @@
     background:#FFF;
 }
 
+.btn-hover-2:hover {
+    background:#F2EEFF;
+    color:#333;
+    text-shadow:none;
+}
+
 .text-black {
     color:#333333;
 }
@@ -73,13 +79,24 @@
 }
 .btn-custom {
     background:#FF7A00;
-}.btn-custom:hover {
+}
+.btn-custom:hover {
     background:#FF6A04;
- }
+    text-shadow:none;
+}
+
+.phone-slug-btn {
+    height:55px;
+    padding-top:8px;
+}
 
 
 .text-dark-blue {
     color:#00154E;
+}
+
+.border-left-gray {
+    border-left: 1px solid #555555;
 }
 
 .text-light-gray {
