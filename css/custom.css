@@ -418,9 +418,6 @@ p {
     background-repeat: no-repeat;
 }
 
-#services .ui-accordion .ui-accordion-content.ui-accordion-content-active {
-    border-bottom: 1px solid #555555;
-}
 
 .ui-accordion-content {
     max-height: 500px;
