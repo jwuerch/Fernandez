@@ -190,7 +190,15 @@ p {
     color:#555555;
 
 }
-
+.lh-44 {
+    line-height:44px;
+}
+.font-42 {
+    font-size:42px;
+}
+.font-32 {
+    font-size:32px;
+}
 .font-36 {
     font-size:36px;
 }
@@ -256,14 +264,12 @@ p {
     height:161px;
     margin:0 auto;
     margin-bottom:30px;
+    padding:15px;
 
 }
-.slide-rectangle:before {
-    content:"<div>&#9733;</div>;&#9733;";
-}
-.slide-rectangle:after {
-    content: "hi";
-    text-shadow:none;
+.star {
+    text-shadow:
+    box-shadow: 0px 2px 4px 0px rgba(0,21,78,0.80);
 }
 
 .phone-slug {
