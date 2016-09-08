@@ -158,6 +158,10 @@ p {
     text-decoration:underline;
 }
 
+.slider-parallax .slider-parallax-inner {
+    position:relative;
+}
+
 
 
 
