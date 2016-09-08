@@ -10,6 +10,9 @@
 .pt-sans {
     font-family: 'PT Sans', sans-serif;
 }
+.lh-27 {
+    line-height:27px !important;
+}
 .padding-top-30 {
     padding-top:30px;
 }
@@ -23,15 +26,29 @@
 .paddding-bottom-30 {
     padding-bottom:30px;
 }
-.padding-left-20 {
+.padding-left-15 {
     padding-left:15px;
 }
+.margin-bottom-50 {
+    margin-bottom:50px;
+}
 
-.padding-right-20 {
+.padding-left-70 {
+    padding-left:70px;
+}
+
+.padding-right-70 {
+    padding-right:70px;
+}
+
+.padding-right-15 {
     padding-right:15px;
 }
 .margin-bottom-15 {
     margin-bottom:15px;
+}
+.margin-bottom-20 {
+    margin-bottom:20px;
 }
 .margin-bottom-30 {
     marign-bottom:30;
@@ -41,6 +58,9 @@
 }
 .padding-bottom-40 {
     padding-bottom:40px;
+}
+.padding-bottom-30 {
+    padding-bottom:30px;
 }
 .padding-top-40 {
     padding-top:40px;
