@@ -7,7 +7,9 @@
 .center-align {
     margin:0 auto;
 }
-
+.pt-sans {
+    font-family: 'PT Sans', sans-serif;
+}
 .padding-top-30 {
     padding-top:30px;
 }
@@ -30,6 +32,9 @@
 }
 .margin-bottom-30 {
     marign-bottom:30;
+}
+.margin-top-30 {
+    margin-top:30px !important;
 }
 .padding-bottom-40 {
     padding-bottom:40px;
@@ -84,7 +89,10 @@
     color:#B6BC25;
 }
 .text-gray {
-    color:#555555;
+    color:#555555 !important;
+}
+.underline-hover:hover {
+    text-decoration:underline !important;
 }
 
 .text-orange {
@@ -232,7 +240,7 @@ p {
     font-size:16px;
 }
 .font-14 {
-    font-size:14px;
+    font-size:14px !important;
 }
 
 .text-shadow {
