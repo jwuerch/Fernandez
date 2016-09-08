@@ -84,7 +84,9 @@
     background:#FF6A04;
     text-shadow:none;
 }
-
+.lh-13 {
+    line-height:13px;
+}
 .phone-slug-btn {
     height:55px;
     padding-top:8px;
