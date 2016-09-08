@@ -305,6 +305,13 @@ p {
     color:#FFF;
     border:1px solid #FFF;
 }
+.lh-60 {
+    line-height:60px;
+}
+
+#content {
+    background: none;
+}
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
