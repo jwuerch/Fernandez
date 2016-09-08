@@ -294,7 +294,11 @@ p {
     color:#FFF;
     font-weight:600;
 }
-
+.owl-carousel .owl-nav [class*=owl-] {
+    background:#51A697;
+    color:#FFF;
+    border:1px solid #FFF;
+}
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {

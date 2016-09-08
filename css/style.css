@@ -10693,7 +10693,7 @@ blockquote.pull-right {
 	width: 36px;
 	height: 36px;
 	line-height: 32px;
-	border: 1px solid rgba(0,0,0,0.2);
+	border: 1px solid #FFF;
 	color: #666;
 	background-color: #FFF;
 	font-size: 18px;
@@ -10742,7 +10742,7 @@ blockquote.pull-right {
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-	background-color: #1ABC9C !important;
+	background-color: #4A9283 !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
