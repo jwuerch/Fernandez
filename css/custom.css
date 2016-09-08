@@ -268,17 +268,55 @@ p {
 
 }
 .star {
-    text-shadow:
-    box-shadow: 0px 2px 4px 0px rgba(0,21,78,0.80);
+    color: #FFD700;
+    text-shadow: 0px 2px 4px 0px rgba(0,21,78,0.80);
+    font-size:35px;
 }
-
+.star-set {
+    line-height:30px;
+}
+.owl-carousel .owl-nav [class*=owl-] {
+    top:38%;
+}
 .phone-slug {
     background:#B6BC25;
 }
 #meet-the-team {
     background:#F0EDE9;
 }
+.icon-plus {
+    position:relative;
+    top:35%;
+    font-size:50px;
+    color:#FFF;
+}
 
+
+@media (max-width:1199px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top:30%;
+    }
+    .icon-plus {
+        top:32%;
+    }
+}
+
+@media (max-width:767px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top:26%;
+    }
+    .icon-plus {
+        top:27%;
+    }
+}
+@media (max-width:479px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top:30%;
+    }
+    .icon-plus {
+        top:32%;
+    }
+}
 
 
 
