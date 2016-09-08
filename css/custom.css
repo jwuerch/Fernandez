@@ -405,6 +405,11 @@ p {
     top: 50%;
     margin-top: -8px;
 }
+.p-border-bottom {
+    border-bottom:1px solid #555;
+    margin-bottom:0px;
+    padding-bottom:10px;
+}
 
 #services .ui-icon {
     display: block;
