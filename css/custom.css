@@ -181,6 +181,9 @@ h5 {
 h6 {
     font-size:32px;
 }
+h6.font-24 {
+    font-size:24px;
+}
 h6.font-21 {
     font-size:21px;
 }
@@ -284,37 +287,37 @@ p {
 #meet-the-team {
     background:#F0EDE9;
 }
-.icon-plus {
+.plus-sign {
     position:relative;
-    top:35%;
-    font-size:50px;
+    top:25.5%;
+    font-size:72px;
     color:#FFF;
+    font-weight:600;
 }
 
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top:30%;
+        top:40%;
     }
-    .icon-plus {
-        top:32%;
+}
+@media (max-width:991px) {
+    .owl-carousel .owl-nav [class*=owl-] {
+        top:38%;
+    }
+    .plus-sign {
+        top:18%;
     }
 }
 
 @media (max-width:767px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top:26%;
-    }
-    .icon-plus {
-        top:27%;
+        top:39%;
     }
 }
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top:30%;
-    }
-    .icon-plus {
-        top:32%;
+        top:36%;
     }
 }
 
