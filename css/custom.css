@@ -160,6 +160,9 @@ p {
 .font-20 {
     font-size:20px;
 }
+.font-18 {
+    font-size:18px;
+}
 .font-16 {
     font-size:16px;
 }
@@ -218,6 +221,9 @@ p {
     text-shadow:none;
 }
 
+.phone-slug {
+    background:#B6BC25;
+}
 
 
 
