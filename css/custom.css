@@ -374,7 +374,6 @@ p {
 .specials-label {
     font-size:14px;
     color:#797F8C;
-
 }
 .specials-save {
     font-size:18px;
@@ -435,6 +434,12 @@ p {
     font-size:32px;
     color:#FFF;
     font-weight:600;
+}
+
+@media (max-width:1199px) {
+    .specials-row p {
+        margin-top:10px;
+    }
 }
 @media (max-width:991px) {
     .specials-row {
