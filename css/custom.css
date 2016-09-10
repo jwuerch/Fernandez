@@ -258,6 +258,7 @@ h5 {
     font-size:36px;
 }
 
+
 h6 {
     font-size:32px;
 }
@@ -349,7 +350,49 @@ p {
     background-image:none !important;
 }
 
+#summer-specials .col-md-4 {
+    border-radius:8px;
+    padding:0;
+    margin-left:20px;
+    margin-right:20px;
+}
+#summer-specials .container {
+    padding-left:0;
+    padding-right:0;
+}
+.specials-row {
+    display:flex;
+    text-align:center;
+}
+.specials-top {
+    height:196px;
+    padding-top:20px;
+}
+.specials-circle {
+    position:relative;
+    margin:0 auto;
+    border:7px solid #FFF;
+    width:146px;
+    height:146px;
+    border-radius:50%;
+    top:-73px;
+}
+.specials-1 {
+    background: #019F8E;
+}
+.specials-2 {
+    background: #FF7A00;
+}
 
+.specials-3 {
+    background: #00154E;
+}
+.specials-row h5 {
+    font-size:32px;
+    color:#FFF;
+    font-weight:600;
+
+}
 
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(1):hover > a {
     color:#FF7A00;
