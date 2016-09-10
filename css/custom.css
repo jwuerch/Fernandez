@@ -350,7 +350,7 @@ p {
     background-image:none !important;
 }
 
-
+/***** SUMMER SPECIALS CSS WITH QUERIES *****/
 .specials-1 {
     background: #019F8E;
     color:#019F8E
@@ -436,6 +436,7 @@ p {
     font-weight:600;
 }
 
+
 @media (max-width:1199px) {
     .specials-row p {
         margin-top:10px;
@@ -450,6 +451,11 @@ p {
         margin:0 auto;
         margin-bottom:50px;
     }
+}
+
+/******* END SPECIALS CSS *********/
+a {
+    color:inherit;
 }
 
 #primary-menu > ul:nth-child(1) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(1):hover > a {
