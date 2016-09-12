@@ -223,6 +223,7 @@ body {
     font-size:16px;
     font-weight:600;
     letter-spacing:0;
+    text-transform:none;
 }
 .no-text-shadow {
     text-shadow:none;
@@ -618,6 +619,18 @@ a {
     .owl-carousel .owl-nav [class*=owl-] {
         top:40%;
     }
+    #header-wrap .container {
+        padding-left:10px;
+        padding-right:10px;
+        width:100%;
+    }
+    #primary-menu ul li > a {
+        padding-left:7px;
+        padding-right:7px;
+    }
+    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
+        width:82%;
+    }
 }
 @media (max-width:991px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -634,6 +647,11 @@ a {
     }
     #primary-menu-trigger {
         font-size:35px;
+    }
+    #header-wrap .container {
+        width:inherit;
+        padding-left:15px;
+        padding-left:15px;
     }
 }
 
