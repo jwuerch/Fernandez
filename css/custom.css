@@ -661,8 +661,14 @@ h4.modal-title {
  }
 .modal h5 {
     font-size:14px;
+    font-weight:400;
 }
-
+#mail-form > button {
+    background:#B6BC25;
+}
+#mail-form > button:hover {
+    background:#AEB323;
+}
 
 
 /*** MEDIA QUERIES ***/
