@@ -663,6 +663,16 @@ a {
     .hide-767 {
         display:none;
     }
+    #phone-slug div.col-sm-6.tright {
+        text-align:center !important;
+    }
+    #phone-slug div.col-sm-6.tleft.border-left-gray {
+        text-align:center !important;
+        margin-bottom:15px;
+    }
+    #phone-slug div.col-sm-6.tright > div {
+        margin-bottom:15px;
+    }
 }
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
