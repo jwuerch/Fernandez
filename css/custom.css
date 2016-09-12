@@ -647,6 +647,7 @@ a {
     }
     #primary-menu-trigger {
         font-size:35px;
+        left:25px;
     }
     #header-wrap .container {
         width:inherit;
@@ -658,6 +659,9 @@ a {
 @media (max-width:767px) {
     .owl-carousel .owl-nav [class*=owl-] {
         top:39%;
+    }
+    .hide-767 {
+        display:none;
     }
 }
 @media (max-width:479px) {
