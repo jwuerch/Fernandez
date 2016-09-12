@@ -735,6 +735,9 @@ a {
         padding-left:10px;
         padding-right:10px;
     }
+    #patient-forms p {
+        text-align:center !important;
+    }
 }
 @media (max-width:640px) {
     #mobile-top-slide h1 {
