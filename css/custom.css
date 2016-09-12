@@ -621,6 +621,9 @@ a {
 .display-767 {
     display:none;
 }
+.display-640 {
+    display:none;
+}
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -665,6 +668,15 @@ a {
         line-height:60px;
         font-size:60px;
     }
+    #meet-the-doctors p {
+        color:#FFF !important;
+    }
+    #no-insurance p {
+        color:#000 !important;
+    }
+    #top-footer img {
+        width:45%;
+    }
 }
 
 @media (max-width:767px) {
@@ -680,10 +692,11 @@ a {
     .display-767 {
         display:inherit;
     }
-    #phone-slug div.col-sm-6.tright {
+
+    #phone-slug div.col-sm-6.tright, #phone-slug-2 div.col-sm-6.tleft {
         text-align:center !important;
     }
-    #phone-slug div.col-sm-6.tleft.border-left-gray {
+    #phone-slug div.col-sm-6.tleft.border-left-gray, #phone-slug-2 div.col-sm-6.tright {
         text-align:center !important;
         margin-bottom:15px;
     }
@@ -719,11 +732,15 @@ a {
     #primary-menu-trigger {
         left:-10px;
     }
+    #meet-the-doctors h2 {
+        font-size:36px;
+    }
 }
 
 @media (max-width:349px) {
     #primary-menu-trigger {
         left: 0px;
     }
+
 }
 
