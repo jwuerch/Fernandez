@@ -81,7 +81,7 @@
     margin-top:50px;
 }
 #logo > a.retina-logo > img, #logo > a.standard-logo > img {
-    width:85%;
+    width:90%;
     margin:0 auto;
 }
 .padding-left-50 {
@@ -157,6 +157,7 @@
 .lh-20 {
     line-height:20px !important;
 }
+
 .lh-25 {
     line-height:25px !important;
 }
@@ -336,8 +337,8 @@ p {
 }
 
 #two-locations {
-    padding-top:195px;
-    padding-bottom:195px;
+    padding-top:150px;
+    padding-bottom:150px;
 }
 
 #footer {
@@ -703,9 +704,7 @@ h4.modal-title {
         padding-left:7px;
         padding-right:7px;
     }
-    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
-        width:82%;
-    }
+
 }
 @media (max-width:991px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -713,6 +712,9 @@ h4.modal-title {
     }
     .plus-sign {
         top:18%;
+    }
+    #no-insurance p {
+        color:#FFF !important;
     }
     .display-991 {
         display:inherit;
@@ -756,6 +758,15 @@ h4.modal-title {
     }
     .display-767 {
         display:inherit;
+    }
+    #two-locations h2 {
+        font-size:38px;
+    }
+    #logo {
+        float:right
+    }
+    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
+        width:100%;
     }
 
     #phone-slug div.col-sm-6.tright, #phone-slug-3 div.col-sm-6.tright,  #phone-slug-2 div.col-sm-6.tleft {
@@ -820,6 +831,7 @@ h4.modal-title {
         line-height:30px;
         margin-bottom:20px !important;
     }
+
 }
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -843,11 +855,35 @@ h4.modal-title {
     #patient-reviews h2 {
         font-size:40px;
     }
+    #logo {
+        position:relative;
+        left:20%;
+    }
+    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
+        width:85%;
+    }
+}
+@media (max-width:375px) {
+    #logo {
+        position:relative;
+        left:15%;
+    }
+    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
+        width:82%;
+    }
+
 }
 
-@media (max-width:349px) {
+@media (max-width:351px) {
     #primary-menu-trigger {
         left: 0px;
+    }
+    #logo {
+        position:relative;
+        left:10%;
+    }
+    #logo > a.retina-logo > img, #logo > a.standard-logo > img {
+        width:80%;
     }
 
 }
