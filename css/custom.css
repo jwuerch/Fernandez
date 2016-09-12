@@ -60,7 +60,7 @@
     margin-bottom:20px;
 }
 .margin-bottom-30 {
-    marign-bottom:30;
+    margin-bottom:30px;
 }
 .margin-top-30 {
     margin-top:30px !important;
@@ -610,6 +610,9 @@ a {
     font-size: 100%;
     list-style: none;
 }
+.display-991 {
+    display:none;
+}
 
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
@@ -622,6 +625,15 @@ a {
     }
     .plus-sign {
         top:18%;
+    }
+    .display-991 {
+        display:inherit;
+    }
+    .hide-991 {
+        display:none;
+    }
+    #primary-menu-trigger {
+        font-size:35px;
     }
 }
 
