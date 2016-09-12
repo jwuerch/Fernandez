@@ -608,9 +608,6 @@ p {
 .display-640 {
     display:none;
 }
-a:hover {
-    text-decoration:none;
-}
 .underline-hover:hover{
     text-decoration:underline;
     color:#FFF;
@@ -622,6 +619,8 @@ a:hover {
 
 a:hover {
     cursor:pointer;
+    color:inherit;
+    text-decoration:none;
 }
 a {
     color:inherit;
