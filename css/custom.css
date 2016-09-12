@@ -347,7 +347,7 @@ p {
     padding-left:30px;
     padding-right:30px;
 }
-#footer .col-md-6 {
+#footer .col-sm-10, #footer .col-sm-2 {
     min-height:80px;
     height:80px;
 }
@@ -706,6 +706,34 @@ a {
     #mobile-top-slide h1 {
         line-height:40px;
         font-size:36px;
+    }
+    #footer p {
+        text-align:center !important;
+    }
+    #footer .col-sm-10, #footer .col-sm-2 {
+        text-align:center !important;
+        margin-bottom:0px;
+        height:50px;
+        min-height:50px;
+    }
+    .col_full {
+        margin-bottom:0px !important;
+    }
+    #patient-forms div.col-sm-6.tright.padding-right-30 {
+        text-align:center !important;
+        margin-bottom:20px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    #patient-forms div.col-sm-6.tleft.border-left-gray.padding-left-30 {
+        text-align:center !important;
+        border-left:none;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    #patient-forms div.col-sm-6.tright.padding-right-30 > a, #patient-forms div.col-sm-6.tleft.border-left-gray.padding-left-30 > a {
+        padding-left:10px;
+        padding-right:10px;
     }
 }
 @media (max-width:640px) {
