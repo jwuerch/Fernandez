@@ -629,6 +629,11 @@ a:hover {
 }
 .underline-hover:hover{
     text-decoration:underline;
+    color:#FFF;
+}
+.underline-hover {
+    color:inherit;
+    text-decoration:none;
 }
 
 /*** MODAL CSS ***/
