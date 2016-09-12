@@ -236,14 +236,12 @@ h1 {
     line-height:70px;
 }
 
-
-h2.font-72 {
-    font-size:72px;
-}
 h2 {
     font-size:64px;
 }
-
+h2.font-72 {
+    font-size:72px;
+}
 h2.font-56 {
     font-size:56px;
 }
