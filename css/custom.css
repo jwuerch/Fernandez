@@ -693,14 +693,14 @@ a {
         display:inherit;
     }
 
-    #phone-slug div.col-sm-6.tright, #phone-slug-2 div.col-sm-6.tleft {
+    #phone-slug div.col-sm-6.tright, #phone-slug-3 div.col-sm-6.tright,  #phone-slug-2 div.col-sm-6.tleft {
         text-align:center !important;
     }
-    #phone-slug div.col-sm-6.tleft.border-left-gray, #phone-slug-2 div.col-sm-6.tright {
+    #phone-slug div.col-sm-6.tleft.border-left-gray, #phone-slug-3 div.col-sm-6.tleft.border-left-gray, #phone-slug-2 div.col-sm-6.tright {
         text-align:center !important;
         margin-bottom:15px;
     }
-    #phone-slug div.col-sm-6.tright > div {
+    #phone-slug div.col-sm-6.tright > div, #phone-slug-3 div.col-sm-6.tright > div {
         margin-bottom:15px;
     }
     #mobile-top-slide h1 {
@@ -713,14 +713,14 @@ a {
         line-height:30px;
         font-size:26px;
     }
-    #phone-slug p {
+    #phone-slug p, #phone-slug-3 p {
         line-height:30px;
         margin-bottom:20px !important;
     }
     .display-640 {
         display:inherit;
     }
-    #phone-slug p {
+    #phone-slug p, #phone-slug-3 p {
         line-height:30px;
         margin-bottom:20px !important;
     }
