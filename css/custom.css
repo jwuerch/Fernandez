@@ -624,6 +624,12 @@ a {
 .display-640 {
     display:none;
 }
+a:hover {
+    text-decoration:none;
+}
+.underline-hover:hover{
+    text-decoration:underline;
+}
 
 /*** MODAL CSS ***/
 
