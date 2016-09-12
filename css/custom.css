@@ -625,6 +625,48 @@ a {
     display:none;
 }
 
+/*** MODAL CSS ***/
+
+.team__modal-pic > div {
+    width:80%;
+    margin-bottom:10px;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.team__modal-pic p {
+    line-height:28px;
+    margin-bottom:15px;
+}
+.iportfolio .portfolio-image:hover {
+    cursor:pointer;
+}
+
+button.close {
+    font-size:50px;
+    margin-top:-10px;
+    color:#000;
+    opacity:1;
+    border-bottom:0px;
+}
+
+.modal-header .close {
+    margin-top:-10px;
+}
+#contact-modal .modal-dialog {
+    background:#FFF;
+    border-radius:5px;
+}
+h4.modal-title {
+     font-size:22px;
+ }
+.modal h5 {
+    font-size:14px;
+}
+
+
+
+/*** MEDIA QUERIES ***/
+
 @media (max-width:1199px) {
     .owl-carousel .owl-nav [class*=owl-] {
         top:40%;
@@ -673,6 +715,9 @@ a {
     }
     #top-footer img {
         width:45%;
+    }
+    .team__modal-pic img {
+        display:none;
     }
 }
 
