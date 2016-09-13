@@ -752,6 +752,11 @@ h4.modal-title {
     .owl-carousel .owl-nav [class*=owl-] {
         top:39%;
     }
+    #footer > div > div.col-sm-2 > div {
+        width:0;
+        margin:0 auto;
+        left:3%;
+    }
     .hide-767 {
         display:none;
     }
@@ -836,12 +841,19 @@ h4.modal-title {
         line-height:30px;
         margin-bottom:20px !important;
     }
+    #footer > div > div.col-sm-2 > div {
+        left:4%;
+    }
 
 }
 @media (max-width:479px) {
     .owl-carousel .owl-nav [class*=owl-] {
         top:36%;
     }
+    #footer > div > div.col-sm-2 > div {
+        left:5.5%;
+    }
+
     #no-insurance p:nth-child(5), #no-insurance p:nth-child(6) {
         font-size:22px;
     }
