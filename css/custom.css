@@ -687,6 +687,9 @@ h4.modal-title {
     background:#AEB323;
 }
 
+#top-footer > div > div:nth-child(1), #top-footer > div > div:nth-child(3) {
+    background-size:cover;
+}
 
 /*** MEDIA QUERIES ***/
 
