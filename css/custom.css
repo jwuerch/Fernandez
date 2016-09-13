@@ -750,7 +750,7 @@ h4.modal-title {
 
 @media (max-width:767px) {
     .owl-carousel .owl-nav [class*=owl-] {
-        top:39%;
+        top:30%;
     }
     #footer > div > div.col-sm-2 > div {
         width:0;
