@@ -632,7 +632,7 @@ a {
 #primary-menu > ul:nth-child(2) > li:nth-child(3) > a {
     color:#019F8E;
 }
-#primary-menu > ul:nth-child(1) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(1):hover > a {
+#primary-menu > ul:nth-child(2) > li:nth-child(1) > a > div, #primary-menu > ul:nth-child(2) > li:nth-child(1):hover > a, #primary-menu > ul.mobile-primary-menu.sf-js-enabled.show > li:nth-child(1) > a:hover {
     color:#FF7A00;
 }
 #primary-menu > ul:nth-child(1) > li:nth-child(2) > a > div, #primary-menu > ul:nth-child(1) > li:nth-child(2):hover > a {

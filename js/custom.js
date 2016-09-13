@@ -37,7 +37,7 @@
         });
     };
     var HWD = new HelloWorldDevs();
-    
+
     HWD.mailForm('#mail-form', '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Uid Goes Here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
 
 })(jQuery);
