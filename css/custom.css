@@ -813,6 +813,9 @@ h4.modal-title {
     #patient-forms p {
         text-align:center !important;
     }
+    #primary-menu {
+        margin-top:100px !important;
+    }
 }
 @media (max-width:640px) {
     #mobile-top-slide h1 {
@@ -844,6 +847,9 @@ h4.modal-title {
     }
     #primary-menu-trigger {
         left:-10px;
+    }
+    #primary-menu {
+        margin-top:0px !important;
     }
     #meet-the-doctors h2 {
         font-size:36px !important;
