@@ -697,7 +697,7 @@ button.close {
 }
 
 #top-footer > div > div:nth-child(2) > div {
-    padding-bottom:20px;
+    padding-bottom:10px;
     padding-top:10px;
 }
 #contact-modal .modal-dialog {
