@@ -689,7 +689,9 @@ button.close {
     opacity:1;
     border-bottom:0px;
 }
-#top-footer > div > div:nth-child(2) > div > p.text-gray.font-15.text-hover.nobottommargin {}
+.iportfolio:hover .portfolio-overlay {
+    opacity:.7;
+}
 .modal-header .close {
     margin-top:-10px;
 }
