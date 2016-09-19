@@ -478,6 +478,31 @@ p {
     padding:15px;
 
 }
+
+.margin-bottom-5 {
+    margin-bottom:5px;
+}
+#top-footer > div > div:nth-child(2) > div > a > img {
+    width:75%;
+}
+.padding-0 {
+    padding:0px !important;
+}
+
+#top-footer div.col-md-4.col-padding > div > p:nth-child(11) {
+    margin-bottom:20px !important;
+}
+#top-footer > div > div:nth-child(2) {
+    padding-top:20px !important;
+    padding-bottom:0px !important;
+    min-height:440px !important;
+    height:auto !important;
+
+}
+
+.text-hover:hover {
+    text-decoration:underline;
+}
 .star {
     color: #FFD700;
     text-shadow: 0px 2px 4px 0px rgba(0,21,78,0.80);
