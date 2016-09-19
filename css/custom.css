@@ -168,8 +168,8 @@
 
 
 #top-footer .col-md-4 {
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-left:0px;
+    padding-right:0px;
 }
 .text-dark-blue {
     color:#00154E;
@@ -478,12 +478,14 @@ p {
     padding:15px;
 
 }
-
+#top-footer .row {
+    display:flex;
+}
 .margin-bottom-5 {
     margin-bottom:5px;
 }
 #top-footer > div > div:nth-child(2) > div > a > img {
-    width:75%;
+    width:60%;
 }
 .padding-0 {
     padding:0px !important;
@@ -492,13 +494,7 @@ p {
 #top-footer div.col-md-4.col-padding > div > p:nth-child(11) {
     margin-bottom:20px !important;
 }
-#top-footer > div > div:nth-child(2) {
-    padding-top:20px !important;
-    padding-bottom:0px !important;
-    min-height:440px !important;
-    height:auto !important;
 
-}
 .font-15 {
     font-size:15px;
 }
@@ -693,9 +689,14 @@ button.close {
     opacity:1;
     border-bottom:0px;
 }
-
+#top-footer > div > div:nth-child(2) > div > p.text-gray.font-15.text-hover.nobottommargin {}
 .modal-header .close {
     margin-top:-10px;
+}
+
+#top-footer > div > div:nth-child(2) > div {
+    padding-bottom:20px;
+    padding-top:10px;
 }
 #contact-modal .modal-dialog {
     background:#FFF;
@@ -713,10 +714,6 @@ h4.modal-title {
 }
 #mail-form > button:hover {
     background:#AEB323;
-}
-
-#top-footer > div > div:nth-child(1), #top-footer > div > div:nth-child(3) {
-    background-size:cover;
 }
 
 /*** MEDIA QUERIES ***/
@@ -739,6 +736,12 @@ h4.modal-title {
 @media (max-width:991px) {
     .owl-carousel .owl-nav [class*=owl-] {
         top:38%;
+    }
+    #top-footer > div > div:nth-child(2) > div > a > img {
+        width:30%;
+    }
+    #top-footer .row {
+        display:inherit;
     }
     .plus-sign {
         top:18%;
