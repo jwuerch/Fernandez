@@ -651,11 +651,11 @@
 							<p class="text-light-green font-21 t600 nobottommargin">SOUTH LAKE TAHOE</p>
 							<p class="text-gray font-18 nobottommargin lh-20">2074 Lake Tahoe Blvd, Suite&nbsp;4</p>
 							<p class="text-gray font-18 nobottommargin">South Lake Tahoe, CA 96150</p>
-							<p class="text-gray font-16 margin-bottom-5 text-hover"><a href="https://www.google.com/maps/place/2074+Lake+Tahoe+Blvd+%234,+South+Lake+Tahoe,+CA+96150/@38.9144294,-120.0037782,17z/data=!3m1!4b1!4m5!3m4!1s0x80998fb9e80cfc9d:0x6c71b90b26d44fd7!8m2!3d38.9144294!4d-120.0015895" target="_blank">Click to view map and directions</a></p>
+							<p class="text-gray font-15 margin-bottom-5 text-hover"><a href="https://www.google.com/maps/place/2074+Lake+Tahoe+Blvd+%234,+South+Lake+Tahoe,+CA+96150/@38.9144294,-120.0037782,17z/data=!3m1!4b1!4m5!3m4!1s0x80998fb9e80cfc9d:0x6c71b90b26d44fd7!8m2!3d38.9144294!4d-120.0015895" target="_blank">Click to view map and&nbsp;directions</a></p>
 							<p class="text-light-green font-21 t600 nobottommargin">STATELINE</p>
 							<p class="text-gray font-18 nobottommargin lh-20">276 Kingsbury Grade, Suite&nbsp;1000</p>
 							<p class="text-gray font-18 nobottommargin">Stateline, NV 89449</p>
-							<p class="text-gray font-16 text-hover nobottommargin"><a href="https://www.google.com/maps/place/276+Kingsbury+Grade+Rd+%231000,+Stateline,+NV+89449/@38.9683524,-119.9310502,17z/data=!3m1!4b1!4m5!3m4!1s0x80999a87459f3833:0xcb272961c9e17d66!8m2!3d38.9683524!4d-119.9288615" target="_blank">Click to view map and directions</a></p>
+							<p class="text-gray font-15 text-hover nobottommargin"><a href="https://www.google.com/maps/place/276+Kingsbury+Grade+Rd+%231000,+Stateline,+NV+89449/@38.9683524,-119.9310502,17z/data=!3m1!4b1!4m5!3m4!1s0x80999a87459f3833:0xcb272961c9e17d66!8m2!3d38.9683524!4d-119.9288615" target="_blank">Click to view map and&nbsp;directions</a></p>
 
 						</div>
 					</div>
@@ -909,13 +909,26 @@
 <script>
 	var map, map2;
 	function initMap() {
+		var myLatLng = {lat: 38.914417, lng: -120.001949};
+		var myLatLng2 = {lat: 38.969066, lng: -119.928776};
 		map = new google.maps.Map(document.getElementById('google-map'), {
-			center: {lat: -34.397, lng: 150.644},
-			zoom: 8
+			center: myLatLng,
+			zoom: 16
 		});
 		map2 = new google.maps.Map(document.getElementById('google-map-2'), {
-			center: {lat: -34.397, lng: 150.645},
-			zoom: 8
+			center: {lat: 38.969066, lng: -119.928776},
+			maptype: 'ROADMAP',
+			zoom: 16,
+		});
+		var marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: 'Hello World!'
+		});
+		var marker2 = new google.maps.Marker({
+			position: myLatLng2,
+			map: map2,
+			title: 'Hello World!'
 		});
 	}
 
