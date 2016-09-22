@@ -952,13 +952,13 @@ h4.modal-title {
     .float-right-non-mobile {
         float:none;
         text-align:center;
-        padding-left:32%;
+        padding-left:33%;
     }
 }
 
 @media (max-width:401px) {
     .float-right-non-mobile {
-        padding-left:37%;
+        padding-left:38%;
     }
 }
 
