@@ -1022,3 +1022,44 @@ only screen and (min-device-pixel-ratio: 1.5){
 .oc-item:hover {
     cursor:pointer;
 }
+.specials-row h5 {
+    line-height:1.2 !important;
+    padding-top:7px;
+}
+
+@media (max-width:767px) {
+    #bfpublish {
+        max-height:600px;
+    }
+}
+
+@media (max-width:640px) {
+    #bfpublish {
+        max-height:500px;
+    }
+}
+
+@media (max-width:479px) {
+    #bfpublish {
+        max-height:410px;
+    }
+}
+
+#bf-revz-widget-3056041288 > div > span {
+    font-family: 'PT Sans', sans-serif;
+    color:#555 !important;
+    font-size:14px !important;
+}
+.bf-dv {
+    margin-top:10px !important;
+}
+#bf-revz-widget-3056041288 a {
+    color:#555 !important;
+}
+#bf-revz-widget-3056041288 a:hover {
+    text-decoration:underline !important;
+}
+
+#bf-revz-widget-3056041288 {
+    margin-top:10px !important;
+}
