@@ -1160,5 +1160,13 @@ only screen and (min-device-pixel-ratio: 1.5){
         font-size:18px !important;
     }
 }
+#top-footer p.nobottommargin.text-light-green.font-21.t600.lh-20, #top-footer p:nth-child(3) {
+    color:#00154E;
+}
 
-
+.form-error {
+    color: #D56724;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 30px;
+    display: none;
+}
