@@ -772,7 +772,7 @@ h4.modal-title {
         font-size:60px;
     }
     #meet-the-doctors p {
-        color:#FFF !important;
+        color:#333 !important;
     }
     #top-footer img {
         width:45%;
@@ -943,6 +943,8 @@ h4.modal-title {
 }
 
 
+/****** EDITS ******/
+
 .float-right-non-mobile {
     float:none;
     text-align:center;
@@ -989,4 +991,34 @@ h4.modal-title {
 
 #no-insurance .text-orange {
     color:#019F8E;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+    html,
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
+    .sticky-responsive-menu {
+        overflow-x:visible;
+    }
+
+}
+
+#logo > a.retina-logo > img {
+    position:relative;
+    left:-10px;
+}
+
+#primary-menu-trigger {
+    font-size:28px;
+}
+
+.oc-item:hover {
+    cursor:pointer;
 }
