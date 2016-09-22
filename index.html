@@ -709,16 +709,20 @@
 
 			<!-- Footer
 ============================================= -->
-			<footer id="footer">
+			<footer id="footer" style="background-color:#F0EDE9;">
 				<div class="row">
-					<div class="col-sm-10">
+					<div class="col-sm-8">
 						<div class="vertical-align">
 							<p class="text-white font-14 t600 text-shadow-4 tleft">Copyright © 2016 All Rights Reserved by <a href="http://www.tysonsteele.com" target="_blank" class="underline-hover">Tyson&nbsp;Steele&nbsp;Associates</a></p>
 						</div>
 					</div>
-					<div class="col-sm-2">
-						<div class="vertical-align tright">
-							<a href="https://www.facebook.com/laketahoedental" target="_blank" class="social-icon si-dark si-colored si-facebook nobottommargin vertical-align fright">
+					<div class="col-sm-4">
+						<div class="float-right-non-mobile icons">
+							<a style="color:#FFF;background:#dd4b39;" href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Lake+Tahoe+Dental+lake+tahoe+ca" target="_blank" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus" ></i>
+								<i class="icon-gplus"></i>
+							</a>
+							<a href="https://www.facebook.com/laketahoedental" target="_blank" style="background:#3B5998;color:#FFF;" class="social-icon si-small si-borderless si-facebook">
 								<i class="icon-facebook"></i>
 								<i class="icon-facebook"></i>
 							</a>
@@ -926,22 +930,22 @@
 		var myLatLng2 = {lat: 38.969066, lng: -119.928776};
 		map = new google.maps.Map(document.getElementById('google-map'), {
 			center: myLatLng,
-			zoom: 16
+			zoom: 16,
+			scrollwheel: false
 		});
 		map2 = new google.maps.Map(document.getElementById('google-map-2'), {
 			center: {lat: 38.969066, lng: -119.928776},
 			maptype: 'ROADMAP',
 			zoom: 16,
+			scrollwheel: false
 		});
 		var marker = new google.maps.Marker({
 			position: myLatLng,
 			map: map,
-			title: 'Hello World!'
 		});
 		var marker2 = new google.maps.Marker({
 			position: myLatLng2,
 			map: map2,
-			title: 'Hello World!'
 		});
 	}
 

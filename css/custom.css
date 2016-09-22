@@ -346,7 +346,7 @@ p {
     padding-left:30px;
     padding-right:30px;
 }
-#footer .col-sm-10, #footer .col-sm-2 {
+#footer .col-sm-8, #footer .col-sm-2 {
     min-height:80px;
     height:80px;
 }
@@ -827,7 +827,7 @@ h4.modal-title {
     #footer p {
         text-align:center !important;
     }
-    #footer .col-sm-10, #footer .col-sm-2 {
+    #footer .col-sm-8, #footer .col-sm-2 {
         text-align:center !important;
         margin-bottom:0px;
         height:50px;
@@ -942,3 +942,51 @@ h4.modal-title {
 
 }
 
+
+.float-right-non-mobile {
+    float:none;
+    text-align:center;
+    padding-left:42%;
+}
+}
+@media (max-width:767px) {
+    .float-right-non-mobile {
+        float:none;
+        text-align:center;
+        padding-left:32%;
+    }
+}
+
+@media (max-width:401px) {
+    .float-right-non-mobile {
+        padding-left:37%;
+    }
+}
+
+#footer > div > div.col-sm-4 > div > a {
+    position:relative;
+    top:50%;
+    transform:translateY(66.66%);
+    float:right;
+    width:36px;
+    height:36px;
+    font-size:20px;
+    margin-right:10px;
+}
+#footer > div > div.col-sm-4 > div > a.social-icon.si-small.si-borderless.si-gplus > i:nth-child(1), #footer > div > div.col-sm-4 > div > a.social-icon.si-small.si-borderless.si-gplus > i:nth-child(2) {
+    top:2px;
+}
+
+@media (max-width:767px) {
+    .float-right-non-mobile {
+        display:flex;
+    }
+    #footer > div > div.col-sm-4 > div > a {
+        top:0;
+        transform:translateY(0%);
+    }
+}
+
+#no-insurance .text-orange {
+    color:#019F8E;
+}
