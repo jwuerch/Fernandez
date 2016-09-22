@@ -971,11 +971,17 @@ h4.modal-title {
     height:36px;
     font-size:20px;
     margin-right:10px;
+    left:-20px;
 }
 #footer > div > div.col-sm-4 > div > a.social-icon.si-small.si-borderless.si-gplus > i:nth-child(1), #footer > div > div.col-sm-4 > div > a.social-icon.si-small.si-borderless.si-gplus > i:nth-child(2) {
     top:2px;
 }
 
+@media (max-width:991px) {
+    #footer > div > div.col-sm-4 > div > a {
+        left:0;
+    }
+}
 @media (max-width:767px) {
     .float-right-non-mobile {
         display:flex;
