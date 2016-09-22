@@ -749,9 +749,6 @@ h4.modal-title {
     .plus-sign {
         top:18%;
     }
-    #no-insurance p {
-        color:#FFF !important;
-    }
     .display-991 {
         display:inherit;
     }
@@ -1063,3 +1060,105 @@ only screen and (min-device-pixel-ratio: 1.5){
 #bf-revz-widget-3056041288 {
     margin-top:10px !important;
 }
+
+@media (max-width:991px) {
+    #no-insurance {
+        background-image:none !important;
+        padding-bottom:0px !important;
+    }
+    #no-insurance > div > div > div:nth-child(2) {
+        background-image: url('images/membership-row-fernandes.jpg');
+        min-height: 1000px;
+    }
+
+    #no-insurance > div > div > div:nth-child(1) {
+        margin-top:0 !important;
+        padding-top:10px;
+        position:absolute;
+        z-index:1;
+    }
+
+    #no-insurance > .container {
+        margin:0;
+        width:100%;
+    }
+    #no-insurance div.col-md-6.margin-top-50.center.col-md-push-6 > div > p:nth-child(5), #no-insurance div.col-md-6.margin-top-50.center.col-md-push-6 > div > p:nth-child(7) {
+        color:#333 !important;
+    }
+    #no-insurance h2 {
+        font-size:50px !important;
+    }
+    #no-insurance p {
+        margin-bottom:10px;
+    }
+    #no-insurance h6 {
+        margin-bottom:13px;
+    }
+    #no-insurance div.col-md-6.margin-top-50.center.col-md-push-6 > div > a:nth-child(6) {
+        margin-bottom:10px;
+    }
+    #no-insurance p.font-18.text-gray.lh-27.margin-bottom-20 {
+        display:none;
+    }
+    #no-insurance > div > div > div.col-md-6.margin-top-50.center.col-md-push-6 {
+        left:0;
+        right:0;
+    }
+
+}
+@media (max-width:767px) {
+    #no-insurance .container {
+        width:100% !important;
+    }
+    #no-insurance > div > div > div:nth-child(2) {
+        background-size:200% !important;
+        background-repeat:no-repeat;
+        min-height:800px;
+    }
+
+}
+@media (max-width:740px) {
+    #no-insurance > div > div > div:nth-child(2) {
+        min-height: 600px;
+    }
+}
+
+@media (max-width:640px) {
+    #no-insurance > div > div > div.col-md-6.margin-top-50.center.col-md-push-6 > div {
+        background: rgba(255, 255, 255, 0.71);
+        margin-top:20px;
+    }
+}
+@media (max-width:550px) {
+    #no-insurance > div > div > div:nth-child(2) {
+        min-height: 500px;
+    }
+}
+
+@media (max-width:479px) {
+    #no-insurance p {
+        color:#333 !important;
+        font-size:16px !important;
+    }
+}
+@media (max-width:450px) {
+    #no-insurance > div > div > div:nth-child(2) {
+        min-height:400px;
+    }
+    #no-insurance h2 {
+        font-size:35px !important;
+    }
+    #no-insurance h6 {
+        font-size:20px !important;
+    }
+    #no-insurance > div > div > div.col-md-6.margin-top-50.center.col-md-push-6 > div {
+        margin-top:10px;
+    }
+}
+@media (max-width:330px) {
+    #no-insurance h6 {
+        font-size:18px !important;
+    }
+}
+
+
