@@ -1121,6 +1121,14 @@ only screen and (min-device-pixel-ratio: 1.5){
         background-repeat:no-repeat;
         min-height:800px;
     }
+    #no-insurance > div > div > div.col-md-6.margin-top-50.center.col-md-push-6 {
+        position:relative;
+        padding-top:30px;
+        background:#FFF;
+    }
+    #no-insurance p.font-18.text-gray.lh-27.margin-bottom-20 {
+        display:inherit;
+    }
 
 }
 @media (max-width:740px) {
@@ -1130,9 +1138,33 @@ only screen and (min-device-pixel-ratio: 1.5){
 }
 
 @media (max-width:640px) {
-    #no-insurance > div > div > div.col-md-6.margin-top-50.center.col-md-push-6 > div {
-        background: rgba(255, 255, 255, 0.71);
-        margin-top:20px;
+
+    #meet-the-doctors {
+        padding-top:0;
+    }
+    #meet-the-doctors > .container {
+        width:100% !important;
+        margin-left:0;
+        margin-right:0;
+        padding-left:0;
+        padding-right:0;
+    }
+    #meet-the-doctors .row {
+        width:100%;
+        padding-left:0;
+        padding-right:0;
+        margin-left:0;
+        margin-right:0;
+    }
+    #meet-the-doctors div.col-md-6.margin-top-50.col-md-push-6 {
+        background:rgba(255, 255, 255, 0.83);
+        width:100%;
+        margin-bottom:30px;
+        text-align:center;
+        padding-left:15px;
+        padding-right:15px;
+        margin-top:0;
+        padding-top:15px;
     }
 }
 @media (max-width:550px) {
